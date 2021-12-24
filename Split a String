@@ -1,0 +1,4 @@
+function splitAString(str) {
+  const output= str.split("");
+  return output;
+}
