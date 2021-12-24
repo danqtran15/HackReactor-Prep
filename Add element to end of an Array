@@ -1,0 +1,4 @@
+function addToBack(arr, element) {
+    const output= arr.push(element);
+    return arr;
+}
