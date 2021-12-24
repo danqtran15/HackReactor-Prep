@@ -1,0 +1,4 @@
+function interpolate(favoriteFood) {
+  const message="My favorite food is " + favoriteFood+ "!";
+  return message;
+}
