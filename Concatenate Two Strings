@@ -1,0 +1,5 @@
+function concatenateTwoStrings(string1, string2) {
+  // your code here
+  const output= string1+string2
+  return output
+}
