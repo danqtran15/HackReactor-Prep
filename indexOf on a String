@@ -1,0 +1,4 @@
+function indexOfString(string1, string2) {
+  const output= string1.indexOf(string2);
+  return output;
+}
