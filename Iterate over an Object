@@ -1,0 +1,5 @@
+function iterateOverObject(obj) {
+  for(const properties in obj){
+      console.log(obj[properties]);
+  }
+}
