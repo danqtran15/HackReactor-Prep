@@ -1,0 +1,19 @@
+function countAllCharacters(str) {
+
+ var newObj = {};
+
+  //iterate through each char of string
+  for (i = 0; i < str.length; i++){
+    var char = str[i];
+    //if char exist in new object
+    if (newObj[char]){
+      //add 1
+      newObj[char] += 1;
+    } else {
+      //create key:value pair, set value to 1
+      newObj[char] = 1;
+    }
+  }
+  return newObj;
+}
+  
