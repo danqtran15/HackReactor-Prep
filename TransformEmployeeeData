@@ -1,0 +1,14 @@
+function transformEmployeeData(employeeData) {
+var container = [];
+    for (var i = 0; i < employeeData.length; i++){
+        var personArray = employeeData[i];
+        var personObject = {};
+            for (var j = 0; j < personArray.length; j++) {
+            var key = personArray[j][0];
+            var value = personArray[j][1];
+            personObject[key] = value;
+                }
+            container.push(personObject);
+}
+return container;
+}
